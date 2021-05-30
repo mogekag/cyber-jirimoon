@@ -1,11 +1,12 @@
 import numpy as np
 
+
 class Character:
 
-    def __init__(self, class=None):
+    def __init__(self, character_class=None):
         self.level = 1
         self.experience = 0
-        self.class = class  # TODO: implement classes and skills
+        # self.class = class  # TODO: implement classes and skills
         '''
         Player Variable Statuses
 
